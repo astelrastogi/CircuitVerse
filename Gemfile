@@ -72,7 +72,7 @@ gem "ahoy_matey"
 gem "i18n-js"
 
 # for lti provider
- gem "ims-lti", "~> 1.1.8"
+ gem "ims-lti", "~> 2.3.1"
 
 # Use Redis adapter to run Action Cable in production
 gem 'redis', '~> 4.0'
