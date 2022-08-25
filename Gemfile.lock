@@ -151,7 +151,7 @@ GEM
     commontator (6.3.0)
       rails (>= 5.2)
       will_paginate
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.1.10)
     connection_pool (2.2.5)
     countries (4.0.1)
       i18n_data (~> 0.13.0)
@@ -243,6 +243,7 @@ GEM
     friendly_id (5.4.1)
       activerecord (>= 4.0.0)
     geocoder (1.6.3)
+    glob (0.3.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     gravatar_image_tag (1.2.0)
@@ -270,10 +271,11 @@ GEM
     http-form_data (2.3.0)
     http-parser (1.2.1)
       ffi-compiler (>= 1.0, < 2.0)
-    i18n (1.8.10)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    i18n-js (3.8.1)
-      i18n (>= 0.6.6)
+    i18n-js (4.0.1)
+      glob
+      i18n
     i18n_data (0.13.0)
     image_processing (1.12.1)
       mini_magick (>= 4.9.5, < 5)
